@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(54, 55, 55);
+    color: aliceblue;
+    font-family: monospace;
+}
+
+h1#title {
+    text-align: center;
+}
+
+.grid-cell{
+    background-color: white;
+}
+
+table#canvas{
+    border-collapse: collapse;
+}
+
+td{
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid black; */
+}
+
+#container{
+    margin-left: 25%;
+    margin-right: 25%;
+    /* border: 5px solid; */
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+#canvas{
+    border: 1px thin black solid;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2) inset,
+                0px 3px 7px rgba(255, 255, 255, 0.5);
+    margin: auto;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input#size{
+    width: 30px;
+}
+
+#buttonz{
+    margin-top: 10px;
+    margin: auto;
+    width: 267px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#changeSize{
+
+}
